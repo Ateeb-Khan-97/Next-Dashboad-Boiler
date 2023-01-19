@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-shadow {
+  box-shadow: 40px 40px 40px -58px rgba(0, 0, 0, 0.73) inset;
+  -webkit-box-shadow: 40px 40px 40px -58px rgba(0, 0, 0, 0.73) inset;
+  -moz-box-shadow: 40px 40px 40px -58px rgba(0, 0, 0, 0.73) inset;
+  @apply bg-[#f1f2ff] p-5 h-[calc(100vh_-_4rem)] overflow-y-auto overflow-x-hidden w-[100%];
+}
